@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>손말잇기</title>
+    <link href="../signup/signup.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="signupwindow">
+      <label class="input" onsubmit="return false">
+        <div class="title">이메일</div>
+        <div class="e-mail">
+          <input placeholder="이메일" />
+          <button type="button">인증요청</button>
+        </div>
+        <div class="title">인증번호</div>
+        <div class="authcode">
+          <input placeholder="인증번호" />
+          <button type="button">확인</button>
+          <!-- <div class="equal">일치하였습니다.</div>
+          <div class="notequal">일치하지않습니다.</div> -->
+        </div>
+
+        <div class="title">닉네임</div>
+        <div class="nickname">
+          <input placeholder="실명은 사용하지 않는 것이 좋습니다." />
+        </div>
+        <div class="title">비밀번호</div>
+        <div class="password">
+          <input placeholder="비밀번호" />
+        </div>
+        <div class="title">비밀번호 확인</div>
+        <div class="checkagain">
+          <input placeholder="비밀번호 확인" />
+        </div>
+        <form method="post" enctype="multipart/form-data">
+          <div class="title">프로필(선택사항)</div>
+          <div class="profile">
+            <input
+              type="file"
+              id="chooseprofile"
+              name="chooseprofile"
+              accept="image/*"
+              onchange="loadFile(this)"
+            />
+          </div>
+        </form>
+        <button
+          class="signupbtn"
+          type="button"
+          onclick="alert('회원가입이 완료 되었습니다.')"
+        >
+          회원가입
+        </button>
+      </label>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  background-color: #E2E2E2;
+}
+
+.header {
+  background-color: white;
+  height: 7%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagename {
+ width: 8%;
+ margin:0 7% 0 7%;
+ padding:0.7%;
+ text-align: center;
+ font-size: 1rem;
+}
+
+.signin:hover , .pagename:hover {
+  color: #808080 ;
+}
+
+.signin{
+  width: 5%;
+  margin-left:15%;
+  font-size:1rem;
+  text-align: center;
+
+}
+
+.signup{
+  width: 5%;
+  margin:0 2% 0 2%;
+  background-color: #D9D9D9 ;
+  text-align: center;
+  padding:0.7%;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.content{
+  height: 93%;
+  width: 100%;
+  margin:0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E2E2E2;
+}
+
+.leftbar{
+  width: 13%;
+  height: 100%;
+  padding: 0 2.5%;
+  background: #E2E2E2;
+}
+
+.profile{
+  width: 100%;
+  overflow: hidden;
+  margin: 35% 0;
+}
+
+.profileimg{
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+  border-radius: 70%;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+}
+
+.img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nickname{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.practiceorquiz{
+  margin: 100% 0;
+}
+
+.practice, .quiz{
+  margin: 50% 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.practice:hover, .quiz:hover{
+ text-decoration: underline;
+ font-weight: 700;
+}
+
+.maincontent{
+  width: 87%;
+  height: 100%;
+  background: #F2F2F2;
+}
+
+.informtext{
+  margin: 0 5%; 
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+}
+
+.selectday{
+  display: flex;
+  align-items: center;
+  margin:1% 5%;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.day{
+  margin: 3% 1%;
+}
+
+.quizcontent{
+  width:100%;
+  height: 60%;
+  display: flex;
+  margin:3% 0;
+}
+
+.showhandtalk{
+  border-right: 0.1rem solid black;
+  width:50%;
+}
+
+.handtalkimg{
+  width: 60%;
+  margin: 8% auto;
+  border-radius: 70%;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+}
+
+.selectanswer{
+  width:50%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.answer{
+  width:70%;
+  height:15%;
+  border: 0.2rem solid black;
+  margin:5%;
+  font-size: 2rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nextbutton{
+  position: absolute;
+  margin: 0 3% 0 1%;
+  width: 4%;
+  right: 0.5%;
+  bottom:4%;
+}

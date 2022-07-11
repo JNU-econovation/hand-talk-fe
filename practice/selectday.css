@@ -1,0 +1,147 @@
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  background-color: #E2E2E2;
+}
+
+.header {
+  background-color: white;
+  height: 7%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagename {
+ width: 8%;
+ margin:0 7% 0 7%;
+ padding:0.7%;
+ text-align: center;
+ font-size: 1rem;
+}
+
+.signin:hover , .pagename:hover {
+  color: #808080 ;
+}
+
+.signin{
+  width: 5%;
+  margin-left:15%;
+  font-size:1rem;
+  text-align: center;
+
+}
+
+.signup{
+  width: 5%;
+  margin:0 2% 0 2%;
+  background-color: #D9D9D9 ;
+  text-align: center;
+  padding:0.7%;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.content{
+  height: 93%;
+  width: 100%;
+  margin:0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E2E2E2;
+}
+
+.leftbar{
+  width: 13%;
+  height: 100%;
+  padding: 0 2.5%;
+  background: #E2E2E2;
+}
+.maincontent{
+  width: 87%;
+  height: 100%;
+  background: #F2F2F2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile{
+  width: 100%;
+  overflow: hidden;
+  margin: 35% 0;
+}
+
+.profileimg{
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+  border-radius: 70%;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+}
+
+.img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nickname{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.practiceorquiz{
+  margin: 100% 0;
+}
+
+.practice, .quiz{
+  margin: 50% 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.practice:hover, .quiz:hover{
+ text-decoration: underline;
+ font-weight: 700;
+}
+
+.selectday{
+  display: flex;
+  align-items: center;
+  margin:3% 5%;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+select{
+  width: 10rem; 
+  padding: 1%;
+  font-size: 2rem;
+  border: none;
+  margin:0 10%;
+  text-align: center;
+}
+
+.informtext{
+  margin: 5% 5% 0 5%; 
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+}
