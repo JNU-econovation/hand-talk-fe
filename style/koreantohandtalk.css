@@ -118,14 +118,6 @@ body {
   background: #F2F2F2;
 }
 
-.informtext{
-  margin: 0 5%; 
-  align-items: center;
-  font-size: 1.5rem;
-  font-weight: 600;
-  letter-spacing: 0.25rem;
-}
-
 .selectday{
   display: flex;
   align-items: center;
@@ -136,6 +128,14 @@ body {
 
 .day{
   margin: 3% 1%;
+}
+
+.informtext{
+  margin: 0 5%; 
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
 }
 
 .quizcontent{

@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>손말잇기</title>
-    <link href="../quiz/select.css" rel="stylesheet" />
+    <link href="../style/selectday.css" rel="stylesheet" />
   </head>
   <body>
     <div class="header">
-      <div class="pagename">수어단어학습</div>
-      <div class="pagename">수어단어퀴즈</div>
-      <div class="pagename">커뮤니티</div>
+      <div class="pagename" onclick="location.href='../html/selectday.html'"">수어단어학습</div>
+      <div class="pagename" onclick="location.href='../html/select.html'">수어단어퀴즈</div>
+      <div class="pagename" onclick="location.href='../html/community.html'">커뮤니티</div>
       <div class="signin">로그인</div>
       <div class="signup">회원가입</div>
     </div>
@@ -19,39 +19,28 @@
       <div class="leftbar">
         <div class="profile">
           <div class="profileimg">
-            <img class="img" src="../img/ㅊㅅㅇ.jpeg" />
+            <img class="img" src="../img/profile.png" />
           </div>
           <div class="nickname">기맨지</div>
         </div>
         <div class="practiceorquiz">
-          <div class="practice">수어단어학습</div>
-          <div class="quiz">수어단어퀴즈</div>
+          <div class="practice" onclick="location.href='../html/practice.html'"">수어단어학습</div>
+          <div class="quiz" onclick="location.href='../html/select.html'">수어단어퀴즈</div>
         </div>
       </div>
       <div class="maincontent">
         <div class="informtext">학습할 DAY를 골라주세요!</div>
         <div class="selectday">
           Day
-          <select name="number">
+          <select
+            name="number"
+            onchange="location.href='../html/practice.html'"
+          >
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
           </select>
-        </div>
-        <div class="selecttransform">
-          <div
-            class="handtalktokorean"
-            onclick="location.href='../quiz/handtalktokorean.html'"
-          >
-            수어 ➡︎ 한글
-          </div>
-          <div
-            class="koreantohandtalk"
-            onclick="location.href='../quiz/koreantohandtalk.html'"
-          >
-            한글 ➡︎ 수어
-          </div>
         </div>
       </div>
     </div>

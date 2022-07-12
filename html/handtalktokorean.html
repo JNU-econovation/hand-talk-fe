@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>손말잇기</title>
-    <link href="../quiz/koreantohandtalk.css" rel="stylesheet" />
+    <link href="../style/handtalktokorean.css" rel="stylesheet" />
   </head>
   <body>
     <div class="header">
-      <div class="pagename">수어단어학습</div>
-      <div class="pagename">수어단어퀴즈</div>
-      <div class="pagename">커뮤니티</div>
+      <div class="pagename" onclick="location.href='../html/selectday.html'"">수어단어학습</div>
+      <div class="pagename" onclick="location.href='../html/select.html'">수어단어퀴즈</div>
+      <div class="pagename" onclick="location.href='../html/community.html'">커뮤니티</div>
       <div class="signin">로그인</div>
       <div class="signup">회원가입</div>
     </div>
@@ -19,20 +19,25 @@
       <div class="leftbar">
         <div class="profile">
           <div class="profileimg">
-            <img class="img" src="../img/ㅊㅅㅇ.jpeg" />
+            <img class="img" src="../img/profile.png" />
           </div>
           <div class="nickname">기맨지</div>
         </div>
         <div class="practiceorquiz">
-          <div class="practice">수어단어학습</div>
-          <div class="quiz">수어단어퀴즈</div>
+          <div class="practice" onclick="location.href='../html/selectday.html'"">수어단어학습</div>
+          <div class="quiz" onclick="location.href='../html/select.html'">수어단어퀴즈</div>
         </div>
       </div>
       <div class="maincontent">
+        <div class="selectday">
+          Day
+          <p class="day">4</p>
+        </div>
+        <div class="informtext">수어를 보고 단어를 맞춰보자!</div>
         <div class="quizcontent">
           <div class="showhandtalk">
             <div class="handtalkimg">
-              <img class="img" src="../img/ㅊㅅㅇ.jpeg" />
+              <img class="img" src="../img/sample.png" />
             </div>
           </div>
           <div class="selectanswer">
@@ -44,7 +49,7 @@
         <img
           class="nextbutton"
           src="../img/nextbutton.png"
-          onclick="location.href='../quiz/handtalktokorean.html'"
+          onclick="location.href='../html/handtalktokorean.html'"
         />
       </div>
     </div>
